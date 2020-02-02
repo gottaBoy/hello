@@ -69,11 +69,11 @@ deploy:
        repository: minyi/go-book-hello
        registry: https://registry.hub.docker.com
 
-   - cng/cf-deploy:
-       api: $API
-       user: $USER
-       password: $PASSWORD
-       org: $ORG
-       space: $SPACE
-       appname: wercker-step-hello
-       docker_image: minyi/go-book-hello
+#    - gottaboy/cf-deploy:
+#        api: $API
+#        user: $USER
+#        password: $PASSWORD
+#        org: $ORG
+#        space: $SPACE
+#        appname: wercker-step-hello
+#        docker_image: minyi/go-book-hello
