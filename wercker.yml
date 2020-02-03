@@ -66,7 +66,7 @@ deploy:
        cmd: /pipeline/source/hello
        port: "8080"
        tag: latest
-       repository: minyi/go-book-hello
+       repository: $DOCKER_USERNAME/go-book-hello
        registry: https://registry.hub.docker.com
 
 #    - gottaboy/cf-deploy:
@@ -76,4 +76,4 @@ deploy:
 #        org: $ORG
 #        space: $SPACE
 #        appname: wercker-step-hello
-#        docker_image: minyi/go-book-hello
+#        docker_image: $DOCKER_USERNAME/go-book-hello
